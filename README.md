@@ -1,6 +1,5 @@
 # Ethereum IdentityStore
 
-___
 ## Intro
 
 This project was submitted as part of [ConsenSys Academy Developer Program On Demand](https://consensys.net/academy/ondemand/) and [Africa Blockchain Developer Program](https://afriblockchain.org/developer/).
