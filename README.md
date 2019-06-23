@@ -46,24 +46,24 @@ A browser window should pop up automatically after the command is run pointing t
 
 ## Remix deployment
 
-If you'd like to play around with the contract head on over to https://remix.ethereum.org/ and paste the code in, ensure you have 0.1 eth in the value when you register.
+If you'd like to play around with the contract, head on over to https://remix.ethereum.org/ and paste the code in, ensure you have 0.1 ETH in the value when you register.
 
 ## We are live on Ropsten!
 
 Deploy the contract with `truffle migrate --network ropsten` after configuring the correct `mnemonic` and `API key` within `truffle-config.js`
-If you'd like to deploy the contract yourself on the ropsten test network. This is not required to play on ropsten. Currently the EthIdentityStore contract is deployed at `0xBd86bA1d85A708518C445CA3bf5E8d64050fe87f` [verify](https://ropsten.etherscan.io/address/0xBd86bA1d85A708518C445CA3bf5E8d64050fe87f)
+If you'd like to deploy the contract by yourself on the ropsten test network. This is not required to play on ropsten. Currently the EthIdentityStore contract is deployed at `0xBd86bA1d85A708518C445CA3bf5E8d64050fe87f` [verify](https://ropsten.etherscan.io/address/0xBd86bA1d85A708518C445CA3bf5E8d64050fe87f)
 
 ## How to deploy on Ropsten
 
 ### How to Get an infura key
 
-To get an infura ropsten api key please head to `https://infura.io/register` then signup then generate a key for ropsten network.
+To get an infura ropsten api key, please head to `https://infura.io/register` then signup, then generate a key for ropsten network.
 
 ### How to get ropsten ether
 
-To get 1 Ether head to `https://faucet.ropsten.io` and enter your testnet account address.
+To get 1 ETH head to `https://faucet.ropsten.io` and enter your testnet account address.
 
 ### Final step
 
-open `truffle-config.js` file then update `mnemonic` var with your mnemonic wallet and add your Infura API key after `https://ropsten.infura.io/v3/` then run `truffle migrate --network ropsten`
+open `truffle-config.js` file then update `mnemonic` var with your mnemonic wallet, and add your Infura API key after `https://ropsten.infura.io/v3/`. Then run `truffle migrate --network ropsten`
 
