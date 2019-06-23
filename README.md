@@ -51,7 +51,7 @@ If you'd like to play around with the contract, head on over to https://remix.et
 ## We are live on Ropsten!
 
 Deploy the contract with `truffle migrate --network ropsten` after configuring the correct `mnemonic` and `API key` within `truffle-config.js`
-If you'd like to deploy the contract by yourself on the ropsten test network. This is not required to play on ropsten. Currently the EthIdentityStore contract is deployed at `0xBd86bA1d85A708518C445CA3bf5E8d64050fe87f` [verify](https://ropsten.etherscan.io/address/0xBd86bA1d85A708518C445CA3bf5E8d64050fe87f)
+If you'd like to deploy the contract by yourself on the ropsten test network. This is not required to play on ropsten. Currently the EthIdentityStore contract is deployed at `0xBd86bA1d85A708518C445CA3bf5E8d64050fe87f` [here](https://ropsten.etherscan.io/address/0xBd86bA1d85A708518C445CA3bf5E8d64050fe87f)
 
 ## How to deploy on Ropsten
 
