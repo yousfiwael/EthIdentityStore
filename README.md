@@ -14,20 +14,21 @@ It's a proof-of-concept for storing identities on the ethereum blockchain.
 
 - Install Node.js: `sudo apt install nodejs`
 - Install npm, the Node.js package manager: `sudo apt install npm`
-
-Ensure the following node packages are installed by running the following commands:
-
-- Install Truffle: `npm install -g truffle`
-- lite-server: `npm install lite-server`
-- Install MetaMask chrome extension: https://metamask.io
 - Install Ganache CLI: `npm install -g ganache-cli`
-- truffle-hdwallet-provider: `npm install truffle-hdwallet-provider`
+- Install MetaMask chrome extension: https://metamask.io
 
 Clone the git repository and change to its directory and initialize npm with the following commands
 ```
 git clone https://github.com/WaelYousfi/EthIdentityStore.git
 cd EthIdentityStore && npm init -y
 ```
+
+Ensure the following node packages are installed by running the following commands:
+
+- Truffle: `npm install -g truffle`
+- lite-server: `npm install lite-server`
+- truffle-hdwallet-provider: `npm install truffle-hdwallet-provider`
+- openzeppelin-solidity: `npm install openzeppelin-solidity`
 
 If you are testing the contracts locally start your test RPC client on port 8545, then compile, migrate and test the contracts with:
 ```
