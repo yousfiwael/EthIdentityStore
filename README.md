@@ -17,7 +17,7 @@ It's a proof-of-concept for storing identities on the ethereum blockchain.
 - Install Ganache CLI: `npm install -g ganache-cli`
 - Install MetaMask chrome extension: https://metamask.io
 
-Clone the git repository and change to its directory and initialize npm with the following commands
+Clone the git repository and change to its directory and initialize npm with the following commands :
 ```
 git clone https://github.com/WaelYousfi/EthIdentityStore.git
 cd EthIdentityStore && npm init -y
