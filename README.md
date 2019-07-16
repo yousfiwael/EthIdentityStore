@@ -2,7 +2,7 @@
 
 ## Intro
 
-This project was submitted as part of [ConsenSys Academy Developer Program On Demand](https://consensys.net/academy/ondemand/) and [Africa Blockchain Developer Program](https://afriblockchain.org/developer/).
+This project was submitted as part of [ConsenSys Academy Ethereum Developer Program 2019](https://consensys.net/academy/ondemand/) and [Africa Blockchain Developer Program](https://afriblockchain.org/developer/).
 
 ## What does the project do?
 
