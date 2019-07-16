@@ -1,5 +1,7 @@
 # Ethereum IdentityStore
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/YyCcKJeGTWA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Intro
 
 This project was submitted as part of [ConsenSys Academy Developer Program On Demand](https://consensys.net/academy/ondemand/) and [Africa Blockchain Developer Program](https://afriblockchain.org/developer/).
