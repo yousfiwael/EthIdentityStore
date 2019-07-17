@@ -67,4 +67,8 @@ To get 1 ETH head to `https://faucet.ropsten.io` and enter your testnet account 
 
 open `truffle-config.js` file then update `mnemonic` var with your mnemonic wallet, and add your Infura API key after `https://ropsten.infura.io/v3/`. Then run `truffle migrate --network ropsten`
 
+## Demo Video
+
+Demonstration of how to copy the project and get it up and running the app on a development server locally.
+
 [![IMAGE ALT TEXT HERE](https://i.vimeocdn.com/video/798315813_1280x720.jpg)](https://vimeo.com/347861429)
