@@ -28,7 +28,7 @@ Ensure the following node packages are installed by running the following comman
 - Truffle: `npm install -g truffle`
 - lite-server: `npm install lite-server`
 - truffle-hdwallet-provider: `npm install truffle-hdwallet-provider`
-- openzeppelin-solidity: `npm install openzeppelin-solidity`
+- openzeppelin-solidity: `npm install @openzeppelin/contracts`
 
 If you are testing the contracts locally start your test RPC client on port 8545, then compile, migrate and test the contracts with:
 ```
