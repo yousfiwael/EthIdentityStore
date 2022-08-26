@@ -1,4 +1,4 @@
-# Avoiding common attacks
+# Avoiding Common Attacks
 
 ## Exposed Functions
 
@@ -17,9 +17,9 @@ I have mitigated against this risk by:
 
 - Creating tests for all contract functions ensuring results are correctly returned.
 - Following Solidity coding standards and general coding best practices.
-- Avoided overly complex functions and phases.
+- Avoided overly complex functions and phrases.
 
-## Exposed secrets
+## Exposed Secrets
 
 All code and data on the blockchain are public, so data like user info are accessible by anyone. Any confidential data stored is accessible by any party.
 
@@ -34,7 +34,7 @@ If a user tried to access data he doesn't own by passing false arguments he won'
 
 I have mitigated against this risk by:
 
-- implementing  validations and reverting the transaction on failure.
+- Implementing  validations and reverting the transaction on failure.
 
 ## Tx.origin
 
@@ -42,13 +42,13 @@ The use of `tx.origin` can be dangerous and should not be trusted.
 
 I have mitigated against this risk by:
 
-- using `msg.sender` in place of `tx.origin`
+- Using `msg.sender` in place of `tx.origin`
 
-## Circuit breaker
+## Circuit Breaker
 
-Unexpected things can go wrong. We need to be ready for anything.  IdentityStore informations  are so important so we need to protect them.
+Unexpected things can go wrong. We need to be ready for anything. EthIdentityStore informations  are so important so we need to protect them.
 
 
 I have mitigated against this risk by:
 
-- Implementing the Ownable and Pausable open-zeppelin libraries to provide a layer of control and security.
+- Using the Ownable and Pausable contract modules of OpenZeppelin Contracts to provide a layer of access control and security.
