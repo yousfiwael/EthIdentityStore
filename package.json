@@ -1,8 +1,29 @@
 {
-  "name": "ethereum_identitystore",
+  "name": "EthIdentityStore",
   "version": "1.0.0",
-  "description": "## Intro This is part of ConsenSys Academy's Developer Program On Demand.",
+  "description": "A PoC for storing digital identities on the Ethereum blockchain blockchain network",
+  "author": "Wael Yousfi",
   "main": "truffle-config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yousfiwael/EthIdentityStore.git"
+  },
+  "scripts": {
+    "start": "node scripts/start.js",
+    "build": "node scripts/build.js",
+    "test": "node scripts/test.js --env=jsdom"
+  },
+  "dependencies": {
+    "bignumber.js": "^7.2.1",
+    "dotenv": "^2.0.0",
+    "lite-server": "^2.5.3",
+    "openzeppelin-solidity": "1.12.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "solc": "^0.4.23",
+    "truffle": "^5.0.24",
+    "truffle-hdwallet-provider": "^1.0.11"
+  },
   "devDependencies": {
     "autoprefixer": "6.5.1",
     "babel-core": "^6.26.3",
@@ -52,21 +73,6 @@
   "directories": {
     "test": "test"
   },
-  "scripts": {
-    "start": "node scripts/start.js",
-    "build": "node scripts/build.js",
-    "test": "node scripts/test.js --env=jsdom"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/WaelYousfi/EthIdentityStore.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/WaelYousfi/EthIdentityStore/issues"
-  },
   "jest": {
     "collectCoverageFrom": [
       "src/**/*.{js,jsx}"
@@ -106,17 +112,5 @@
   },
   "eslintConfig": {
     "extends": "react-app"
-  },
-  "homepage": "http:///",
-  "dependencies": {
-    "bignumber.js": "^7.2.1",
-    "dotenv": "^2.0.0",
-    "lite-server": "^2.5.3",
-    "openzeppelin-solidity": "1.12.0",
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2",
-    "solc": "^0.4.23",
-    "truffle": "^5.0.24",
-    "truffle-hdwallet-provider": "^1.0.11"
   }
 }
