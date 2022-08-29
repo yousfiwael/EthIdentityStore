@@ -2,7 +2,7 @@
 
 ## About
 
-It's a proof-of-concept for storing digital identities on the Ethereum blockchain blockchain network.
+It's a PoC for storing digital identities on the Ethereum blockchain network.
 
 This project was submitted as part of [ConsenSys Academy Ethereum Developer Program 2019](https://courses.consensys.net/courses/blockchain-developer-bootcamp-registration-2020).
 
@@ -40,7 +40,7 @@ The frontend interface is running with `lite-server` for local testing purposes.
 
 `npm run start`
 
-A browser window should pop up automatically after the command is run pointing to http://localhost:3000, otherwise manually type this address in your preferred browser. MetaMask is required to send transactions.
+A browser window should pop-up automatically after the command is run pointing to http://localhost:3000, otherwise manually type this address in your preferred browser. MetaMask is required to send transactions.
 
 ## Remix Deployment
 
